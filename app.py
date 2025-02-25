@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Set Streamlit page config
-st.set_page_config(page_title="Election Data Dashboard", layout="centered")
+st.set_page_config(page_title="Lok-Sabha-Election-2024-Analysis", layout="centered")
 
 
 # Title
@@ -37,8 +37,8 @@ df_winners = df_winners.merge(df_candidates[['State', 'Constituency_No', 'Consti
 df_winners.drop(columns=['Constituency_No', 'Constituency', 'Candidate Name'], inplace=True)
 
 # Sidebar - Select Visualization
-st.sidebar.header("📌 Select Visualization")
-visualization = st.sidebar.radio("Choose a visualization:", [
+st.sidebar.header("📌 Explore Voting Trends")
+visualization = st.sidebar.radio("Select a Trent to Visualize", [
     "Gender Distribution", "Age Distribution",
     "Phase-wise Candidate Distribution", "State-wise Candidate Count",
     "Seats Won by Each Party", "Party-wise Victory Rate",
