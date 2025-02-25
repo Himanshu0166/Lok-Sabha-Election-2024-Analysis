@@ -19,9 +19,9 @@ st.markdown("""
 
 
 # Load Data Directly from Files
-file1 = "candidates_with_phase.csv"
-file2 = "results_2024.csv"
-file3 = "results_2024_winners.csv"
+file1 = "Dataset/candidates_with_phase.csv"
+file2 = "Dataset/results_2024.csv"
+file3 = "Dataset/results_2024_winners.csv"
 
 df_candidates = pd.read_csv(file1)
 df_results = pd.read_csv(file2)
