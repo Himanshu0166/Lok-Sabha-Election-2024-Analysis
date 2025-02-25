@@ -38,7 +38,7 @@ df_winners.drop(columns=['Constituency_No', 'Constituency', 'Candidate Name'], i
 
 # Sidebar - Select Visualization
 st.sidebar.header("📌 Explore Voting Trends")
-visualization = st.sidebar.radio("Select a Trent to Visualize", [
+visualization = st.sidebar.radio("Select a Trend to Visualize", [
     "Gender Distribution", "Age Distribution",
     "Phase-wise Candidate Distribution", "State-wise Candidate Count",
     "Seats Won by Each Party", "Party-wise Victory Rate",
