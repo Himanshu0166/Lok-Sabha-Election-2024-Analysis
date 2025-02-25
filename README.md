@@ -1,3 +1,6 @@
+#### app.py is a Streamlit verson 
+[Click here to visit my deployed app](https://lok-sabha-election-2024-analysis.streamlit.app/)
+
 # Lok-Sabha-Election-2024-Analysis
 
 LOK SABHA ELECTION(2024) ANALYSIS
